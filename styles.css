@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: "Kalam", cursive;
+  --primary: #f2c94c;
+  --width-break: 600px;
+}
+
+nav {
+  display: block;
+  background-color: var(--primary);
+  height: 12vh;
+  padding-top: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 24px;
+  font-weight: 200;
+  font-size: xx-large;
+}
+
+main {
+  max-width: var(--width-break);
+  padding-top: 5rem;
+  margin: auto;
+}
+
+button {
+  margin-left: 20px;
+  padding: 20px;
+  border: #f2c94c;
+  background-color: #f2c94c;
+  font-family: "Kalam", cursive;
+  font-size: larger;
+}
+
+textarea {
+  width: 650px;
+  display: block;
+  margin: 1rem;
+  height: 20vh;
+  padding: 1rem;
+  font-family: "Kalam", cursive;
+  font-size: large;
+}
+
+.op-text {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+#output {
+  border: 1px solid black;
+  height: 15vh;
+  width: 650px;
+  margin: 1rem;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+footer {
+  background-color: #f2c94c;
+  height: 300px;
+  margin-top: 20px;
+  position: fixed;
+  text-align: center;
+  padding: 0 150px;
+}
+
+.footer-headline {
+  margin-top: 10px;
+  font-size: x-large;
+}
+
+p {
+  font-size: large;
+}
